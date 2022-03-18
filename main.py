@@ -42,7 +42,7 @@ personal_pronouns=[] #stores personal pronouns
 avg_word_length=[] #stores avg word length
 
 #Reading .xlsx file to extract urls
-df = pd.read_excel(r"C:\Users\RR\Desktop\DE INTERN ASSIGNMENT\code\Input.xlsx")
+df = pd.read_excel("Input.xlsx")
 
 #Declaring Dictionary of positve and negative words
 def IsNotNull(value):
